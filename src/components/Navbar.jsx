@@ -4,13 +4,15 @@ import Link from "./Link"
 function Navbar() {
     return (
         <ul>
-            <Link></Link>
-            <Link></Link>
-
+            <li><Link></Link></li>
+            <li><Link></Link></li>
+            
+            <li>
             <Link>
                 qwerty       {/** qui non verrà mandato a schermo, serviranno i props */}
             </Link>
-            
+            </li>
+
             <li><a href="#">Ciao</a></li>
             <li><a href="#">Ciao</a></li>
         </ul>
