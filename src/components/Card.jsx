@@ -1,8 +1,6 @@
-function Card(props) {
+function Card({title, imgURL}) {
 
-    const title = props.title
     const description = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, excepturi!"
-    const imgURL = props.imgURL
 
     return (
         <div className="rounded-md bg-zinc-950">
