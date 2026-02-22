@@ -6,7 +6,7 @@ function Card({title, imgURL, isVisited, children}) {
             alt="" />
             <div className="flex flex-col p-4 grow">
                 <h2 className="text-2x1 text-white font-bold">{title}</h2>
-                <p className="text-gray-500 grow min-h-[120px]">{children}</p>
+                <p className="text-gray-500 grow min-h-30">{children}</p>
                 <span className="mt-10">{isVisited ? "✔️ Visitata" : "❌ Non visitata"}</span>
             </div>
         </div>
